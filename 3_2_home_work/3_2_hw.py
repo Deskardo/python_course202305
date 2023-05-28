@@ -9,11 +9,13 @@ from random import randint
 n = int(input('Введите длину масива: '))
 a = [randint(1, n) for i in range(n)]
 print(a)
-x = int(input('Введите число x для поиска: '))
-count = 0
+x = int(input('Введите число x: '))
+min = abs(a[0] - x)
+y = a[0]
 
 for i in range(n):
-    if a[i] == x:
-        count +=1
+    if abs(a[i] - x) < min:
+        min = abs(a[i] - x)
+        y = a[i]
         
-print(f'число {x} встречается {count} раз(а)')
+print(f'{y}')

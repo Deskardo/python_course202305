@@ -91,9 +91,10 @@
 # print(dictionary['type']) # KeyError: 'type'
 # del dictionary['left'] # удаление элемента
 
-# for item in dictionary:         # for (k,v) in dictionary.items():
-#     print('{}: {}'.format(item, dictionary[item]))
-#     print(item)
+# for item in dictionary:        
+# for (k,v) in dictionary.items():
+    # print('{}: {}'.format(item, dictionary[item]))
+    #  print(item)
 
 
 # --------------------------------------------------------------

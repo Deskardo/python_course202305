@@ -13,6 +13,6 @@ for i in range(len(t_split)):
                 t_split2[j] = t_split[i] + '_' + str(count)
                 count += 1
            else:
-                count +=1
+                count += 1
 
 print(t_split2)

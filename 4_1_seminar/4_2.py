@@ -2,7 +2,7 @@
 # подряд, слова разделены одним или большим числом пробелов. Определите, сколько различных слов содержится в этом тексте.
 
 text = "She sells sea shells on the sea shore The shellsthat she sells are sea shells I'm sure.So if she sells sea shells on the sea shore I'm sure that the shells are sea shore shells".split()
-text_pl = {" ",}
+text_pl = set()
 print(text)
 
 for i in range(len(text)):

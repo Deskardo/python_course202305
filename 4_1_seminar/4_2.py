@@ -7,5 +7,6 @@ print(text)
 
 for i in range(len(text)):
     text_pl.add(text[i])
+text_pl.discard(" ")
     
 print(len(text_pl))
